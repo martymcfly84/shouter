@@ -1,4 +1,8 @@
 Shouter::Application.routes.draw do
+  get "new/create"
+
+  get "new/index"
+
   get "home/index"
 
   # The priority is based upon order of creation:
